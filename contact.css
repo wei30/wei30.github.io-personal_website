@@ -1,0 +1,80 @@
+body {
+  margin: 15px;
+  background-image: url("images/woodz.PNG");
+  background-size: cover;
+  max-width: 1500px;
+  max-height: 1000px;
+  
+  
+}
+h1{
+	position: absolute;
+	text-align: center;
+	left: -3px;
+	top: -2px;
+}
+
+.contactform{
+	position: absolute;
+	left: 40%;
+	top: 109px;
+	max-width: 331px;
+	max-height: 399px;
+    width: 50%;
+    height: 60%;
+}
+
+.name{
+	position: absolute;
+	height: 34px;
+	top: 124px;
+	max-width: 150px;
+}
+.email{
+	position: absolute;
+	top: 197px;
+	height: 48px;
+	max-width: 153px;
+	height: 34px;
+}
+
+.message{
+	position: absolute;	
+	top: 280px;
+	max-width: 190px;
+	height: 112px;
+}
+#message{
+	position: absolute;
+	left: 4px;
+	top: 24px;
+	max-width: 177px;
+	height: 78px;
+	resize: none;
+	
+}
+.send{
+	position: absolute;
+	left: 244px;
+	top: 371px;
+}
+#send{
+	background-color: #F99;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-right:50px;
+	cursor: pointer;
+}
+button{
+	position: absolute;
+	left: -66px;
+	top: 437px;
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 480px){
+
+}

@@ -1,0 +1,348 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	max-width: 1500px;
+}
+
+div{
+	text-align:left;
+}
+
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #C6C;
+}
+
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+
+.menu{
+	position:absolute;
+	left: 65%;
+	top: 17px;
+	z-index: 2;
+}
+
+ul{
+	margin:0px;
+	padding: 0px;
+	
+}
+
+ul li{
+	float: left;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	text-decoration:none;
+	display: block;
+	
+}
+.decoration{
+	background-color: #CCC;
+	opacity: 0.5;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+
+#image {
+	position: absolute;
+	left: 15%;
+	top: 70px;
+	max-width: 900px;
+	height: 60%;
+	width: 100%;
+	z-index: 1;
+}
+
+section {
+	position: absolute;
+	left: 15%;
+	top: 80%;
+	max-width: 897px;
+	width: 100%;
+	max-height: 362px;
+	height: 60%;
+	z-index: 2;
+}
+
+.AboutMe{
+	text-align: center;
+}
+
+.Skills{
+	position:absolute;
+	left: 0%;
+	top: 50%;
+	text-align: center;
+	max-width: 897px;
+	width: 100%;
+}
+
+.left{
+	position: absolute;
+	width: 33.44%;
+	left: 46px;
+	top: 100%;
+}
+
+.right{
+	position: absolute;
+	left: 55.63%;
+	width: 33.44%;
+	top: 100%;
+}
+
+.container{
+	background-color: #CCC;
+	height: 5px;
+}
+
+.skill{
+	height: 4px;
+	background-color: #0FF;
+}
+	
+.html5{
+	width: 70%;
+	-moz-animation: html5 20s ease-out;
+	-webkit-animation: html5 20s ease-out;
+	
+}
+
+.javascript{
+	width: 60%;
+	-moz-animation: javascript 20s ease-out;
+	-webkit-animation: javascript 20s ease-out;
+}
+
+.learning{
+	width: 80%;
+	-moz-animation: learning 20s ease-out;
+	-webkit-animation: learning 20s ease-out;
+}
+.organization{
+	width: 70%;
+	-moz-animation: organization 20s ease-out;
+	-webkit-animation: organization 20s ease-out;
+	
+}
+
+.adobe{
+	width: 60%;
+	-moz-animation: adobe 20s ease-out;
+	-webkit-animation: adobe 20s ease-out;
+	
+}
+
+.github{
+	width: 65%;
+	-moz-animation: github 20s ease-out;
+	-webkit-animation: github 20s ease-out;
+	
+}	
+
+.unix{
+	width: 70%;
+	-moz-animation: unix 20s ease-out;
+	-webkit-animation: unix 20s ease-out;
+	
+}
+
+.jquery{
+	width: 50%;
+	-moz-animation: jquery 20s ease-out;
+	-webkit-animation: jquery 20s ease-out;
+}
+
+.react{
+	width: 40%;
+	-moz-animation: react 20s ease-out;
+	-webkit-animation: react 20s ease-out;
+}
+
+.C{
+	width: 70%;
+	-moz-animation: C 20s ease-out;
+	-webkit-animation: C 20s ease-out;
+}
+@keyframes html5{
+	from{
+		width: 0%;
+	}
+	to{
+		
+		width: 50%;
+	}
+}
+@keyframes javascript{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 60%;
+	}
+}
+@keyframes learning{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 80%;
+	}
+}
+@keyframes organization{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 70%;
+	}
+}
+@keyframes adobe{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 60%;
+	}
+}
+@keyframes github{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 65%;
+	}
+}
+@keyframes unix{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 70%;
+	}
+}
+@keyframes jquery{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 50%;
+	}
+}
+@keyframes react{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 30%;
+	}
+}
+
+@keyframes C{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 70%;
+	}
+}
+
+footer {
+	position: absolute;
+	left: 15%;
+	top: 150%;
+	max-width: 900px;
+    background-color: brown;
+	height: 120px;
+	z-index: 3;
+}
+
+#footerImage{
+	max-width:900px;
+	max-height:120px;
+    width: 120%;
+    height: 100%;
+}
+
+#icon1 {
+	position: absolute;
+	left: 9.555%;
+	top: 11.67%;
+	max-width: 80px;
+	width: 7.968%;
+	z-index: 4;
+	
+}
+
+#icongithub{
+	max-width: 80px;
+	max-height: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+#icon2 {
+	position: absolute;
+	left: 45%;
+	top: 10%;
+	max-width: 40px;
+	width: 7%;
+	z-index: 4;
+}
+#iconlinked{
+	max-width: 40px;
+	max-height: 40px;
+	width: 100%;
+	height: 100%;
+}
+
+#icon3 {
+	position: absolute;
+	left: 78%;
+	top: 11%;
+	max-width: 40px;
+	max-height: 40px;
+	width: 8%;
+	height: 27%;
+	z-index: 4;
+}
+
+#iconemail{
+	max-width: 40px;
+	max-height: 40px;
+	width: 100%;
+	height: 100%;
+}
+#apDiv1 {
+	position: absolute;
+	left: 45%;
+	top: 100px;
+	z-index: 4;
+}
+
